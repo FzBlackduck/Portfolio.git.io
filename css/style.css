@@ -7329,7 +7329,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   overflow-y: hidden;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(252, 252, 252, 0.04);
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -7412,7 +7412,7 @@ h1, h2, h3, h4, h5,
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
-          color: black; }
+          color: rgb(252, 252, 252); }
         
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
@@ -7431,27 +7431,7 @@ h1, h2, h3, h4, h5,
           -o-transform: scaleX(1);
           transform: scaleX(1); }
 
-          #colorlib-aside #colorlib-main-white ul li a:hover {
-            text-decoration: none;
-            color: rgb(248, 248, 248); }
           
-            #colorlib-aside #colorlib-main-white ul li a:hover:after {
-              visibility: visible;
-              -webkit-transform: scaleX(1);
-              -moz-transform: scaleX(1);
-              -ms-transform: scaleX(1);
-              -o-transform: scaleX(1);
-              transform: scaleX(1); }
-        #colorlib-aside #colorlib-main-white ul li.colorlib-active a {
-          color: #000000; }
-          #colorlib-aside #colorlib-main-white ul li.colorlib-active a:after {
-            visibility: visible;
-            -webkit-transform: scaleX(1);
-            -moz-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-            -o-transform: scaleX(1);
-            transform: scaleX(1); }
-
 
   #colorlib-aside .colorlib-footer {
     position: absolute;
