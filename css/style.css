@@ -7412,7 +7412,7 @@ h1, h2, h3, h4, h5,
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
-          color: rgb(252, 252, 252); }
+          color: rgb(0, 0, 0); }
         
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
