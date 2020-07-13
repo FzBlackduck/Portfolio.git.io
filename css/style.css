@@ -7413,9 +7413,6 @@ h1, h2, h3, h4, h5,
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
           color: black; }
-        #colorlib-aside #colorlib-main-white ul li a:hover {
-            text-decoration: none;
-            color: white; }
         
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
@@ -7433,6 +7430,29 @@ h1, h2, h3, h4, h5,
           -ms-transform: scaleX(1);
           -o-transform: scaleX(1);
           transform: scaleX(1); }
+
+          #colorlib-aside #colorlib-main-white ul li a:hover {
+            text-decoration: none;
+            color: white; }
+          
+            #colorlib-aside #colorlib-main-white ul li a:hover:after {
+              visibility: visible;
+              -webkit-transform: scaleX(1);
+              -moz-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+              -o-transform: scaleX(1);
+              transform: scaleX(1); }
+        #colorlib-aside #colorlib-main-white ul li.colorlib-active a {
+          color: #000000; }
+          #colorlib-aside #colorlib-main-white ul li.colorlib-active a:after {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            -moz-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            transform: scaleX(1); }
+
+
   #colorlib-aside .colorlib-footer {
     position: absolute;
     bottom: 40px;
