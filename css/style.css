@@ -7413,6 +7413,10 @@ h1, h2, h3, h4, h5,
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
           color: black; }
+        #colorlib-aside #colorlib-main-white ul li a:hover {
+            text-decoration: none;
+            color: white; }
+        
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
